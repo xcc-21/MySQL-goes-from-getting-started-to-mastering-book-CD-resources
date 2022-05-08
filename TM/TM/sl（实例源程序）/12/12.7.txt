@@ -1,0 +1,22 @@
+use db_database12;
+
+
+DESC book_view1;
+
+ALTER 
+VIEW book_view1(a_sort)
+
+AS SELECT sort 
+FROM tb_book
+WITH CHECK OPTION;
+
+
+/****如果上面的代码执行失败，那么先删除数据库中的视图book_view1，然后应用下面的语句重新创建一视图再执行上面的代码进行修改****/
+
+
+CREATE VIEW book_view1 
+AS select sort AS a_sort, books AS a_book
+    
+from `tb_book`
+	
+WITH CHECK OPTION;

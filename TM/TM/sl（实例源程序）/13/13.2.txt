@@ -1,0 +1,11 @@
+use db_database13;
+
+create table tb_student (
+id int auto_increment,
+name varchar(30) not null,
+sex varchar(2),
+classid int not null,
+birthday date,
+PRIMARY KEY (id,classid)
+);
+

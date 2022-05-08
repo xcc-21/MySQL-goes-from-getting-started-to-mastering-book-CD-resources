@@ -1,0 +1,4 @@
+use db_database19;
+EXPLAIN SELECT * FROM studentinfo WHERE name LIKE '%l';
+
+EXPLAIN SELECT * FROM studentinfo WHERE name LIKE 'le%';

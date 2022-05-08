@@ -1,0 +1,19 @@
+use db_database17
+
+DELIMITER //
+create procedure p_total()
+begin
+
+DECLARE n_total INT default 0;
+select COUNT(*) into n_total FROM db_database11.tb_user;
+INSERT INTO tb_total (userNumber,createtime) values(n_total,NOW());
+
+end
+ //
+
+
+
+CREATE EVENT IF NOT EXISTS e_autoTotal
+ ON SCHEDULE EVERY 1 MONTH STARTS DATE_ADD(DATE_ADD(DATE_SUB(CURDATE(),INTERVAL DAY(CURDATE())-1 DAY),INTERVAL 1 MONTH),INTERVAL 1 HOUR)
+ ON COMPLETION PRESERVE ENABLE
+ DO CALL p_total();

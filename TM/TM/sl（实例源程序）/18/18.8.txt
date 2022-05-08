@@ -1,0 +1,1 @@
+mysql -u root -p111 -e"SELECT * FROM student" test > D:/student2.txt

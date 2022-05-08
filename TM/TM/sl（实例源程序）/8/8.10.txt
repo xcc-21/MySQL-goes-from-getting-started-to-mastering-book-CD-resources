@@ -1,0 +1,3 @@
+USE db_database08;
+DELETE FROM tb_admin;
+

@@ -1,0 +1,12 @@
+use db_database11;
+
+/**如果db_databse11中已经存在名称为telephone的数据表，那么需要先删除该表，然后再执行下面的创建数据表的SQL语句**/
+
+create table telephone(
+id int(11) primary key auto_increment not null,
+name varchar(50) not null,
+tel varchar(50) not null,
+index tel_num(tel(20))
+);
+
+show create table telephone;

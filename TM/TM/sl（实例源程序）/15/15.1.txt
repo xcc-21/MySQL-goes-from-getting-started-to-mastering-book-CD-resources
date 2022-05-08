@@ -1,0 +1,13 @@
+use db_database15;
+
+create table timelog(
+id int(11) primary key auto_increment not null,
+savetime varchar(50) not null
+);
+
+delimiter // 
+create trigger auto_save_time before insert 
+on studentinfo for each row
+insert into timelog(savetime) values(now());
+//
+

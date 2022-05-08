@@ -1,0 +1,1 @@
+mysql ¨Cu root ¨Cp --html ¨Ce ¡°select * from student¡± test >D:/student.html

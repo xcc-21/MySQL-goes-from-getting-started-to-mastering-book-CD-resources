@@ -1,0 +1,14 @@
+use db_database07;
+delimiter //
+create procedure example_if(in x int)
+begin
+if x=1 then
+select 1;
+elseif x=2 then
+select 2;
+else
+select 3;
+end if;
+end
+//
+call example_if(2);

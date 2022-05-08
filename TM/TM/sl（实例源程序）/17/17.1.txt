@@ -1,0 +1,3 @@
+SHOW VARIABLES LIKE 'event_scheduler';
+SELECT @@event_scheduler;
+SHOW PROCESSLIST;

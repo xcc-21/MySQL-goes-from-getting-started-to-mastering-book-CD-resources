@@ -1,0 +1,17 @@
+use db_database07;
+
+delimiter //
+create procedure example_repeat (out sum int)
+begin
+declare i int default 1;
+declare s int default 0;
+repeat
+set s=s+i;
+set i=i+1;
+until i>100
+end repeat;
+set sum=s;
+end
+//
+call example_repeat(@s);
+select @s//

@@ -1,0 +1,8 @@
+use db_database14;
+delimiter //
+create function name_of_student(std_id INT)
+returns varchar(50)
+begin
+return(select name from studentinfo where sid=std_id);
+end
+//

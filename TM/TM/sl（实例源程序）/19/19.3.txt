@@ -1,0 +1,4 @@
+use db_database19;
+explain select * from studentinfo where name= 'mrsoft ';
+CREATE INDEX index_name ON studentinfo(name);
+explain select * from studentinfo where name = 'mrsoft ';

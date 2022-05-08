@@ -1,0 +1,10 @@
+use db_database12;
+
+
+CREATE VIEW
+
+book_view1(a_sort,a_talk,a_books)
+
+AS SELECT sort,talk,books
+
+FROM tb_book;

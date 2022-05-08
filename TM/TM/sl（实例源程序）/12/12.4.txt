@@ -1,0 +1,3 @@
+use db_database12;
+
+SHOW TABLE STATUS LIKE 'book_view1';

@@ -1,0 +1,2 @@
+CREATE USER mrkj IDENTIFIED BY 'mrsoft';
+DROP USER mrkj;

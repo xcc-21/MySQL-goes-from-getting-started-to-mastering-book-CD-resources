@@ -1,0 +1,4 @@
+/**如果用户mrsoft已经被删除，那么需要应用下面的语句再创建一个该用户**/
+ create user mrsoft identified by 'mr';
+/*********************************************************************/
+rename user mrsoft to lh;

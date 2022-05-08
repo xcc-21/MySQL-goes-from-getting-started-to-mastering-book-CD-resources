@@ -1,0 +1,6 @@
+DESC db_database08.tb_admin;
+
+USE db_database08;
+INSERT INTO tb_admin VALUES(1,'mr','mrsoft','2014-09-05 10:25:20');
+
+SELECT * FROM tb_admin;

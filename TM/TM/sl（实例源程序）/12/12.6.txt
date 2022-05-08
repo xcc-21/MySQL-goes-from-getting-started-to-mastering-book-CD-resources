@@ -1,0 +1,9 @@
+use db_database12;
+
+CREATE OR REPLACE ALGORITHM=TEMPTABLE
+
+VIEW book_view1(a_sort,a_book)
+
+AS SELECT sort,books FROM tb_book;
+
+DESC book_view1;

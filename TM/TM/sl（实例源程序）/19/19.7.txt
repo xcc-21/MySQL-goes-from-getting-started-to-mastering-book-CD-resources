@@ -1,0 +1,7 @@
+use db_database19;
+CREATE TABLE temp_score(id INT NOT NULL,
+Name VARCHAR(20) NOT NULL,
+grade FLOAT);
+
+INSERT INTO temp_score SELECT student.id,student.name,score.grade
+FROM student,score WHERE student.id=score.stu_id;

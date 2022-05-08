@@ -1,0 +1,2 @@
+use db_database07;
+select user,user like 'mr',user like '%l%'from tb_book;

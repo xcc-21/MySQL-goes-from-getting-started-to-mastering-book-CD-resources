@@ -1,0 +1,18 @@
+use db_database07;
+delimiter //
+create procedure example_loop (out sum int)
+begin
+declare i int default 1;
+declare s int default 0;
+loop_label:loop
+set s=s+i;
+set i=i+1;
+if i>100 then
+leave loop_label;
+end if;
+end loop;
+set sum=s;
+end
+//
+call example_loop(@s);
+select @s//

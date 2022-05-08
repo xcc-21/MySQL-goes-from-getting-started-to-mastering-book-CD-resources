@@ -1,0 +1,3 @@
+USE db_admin;
+ALTER TABLE tb_userNew
+ALTER COLUMN user SET DEFAULT "mr";

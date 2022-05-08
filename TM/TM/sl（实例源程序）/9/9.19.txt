@@ -1,0 +1,4 @@
+use db_database09;
+
+select row from tb_book;
+select sum(row) from tb_book;

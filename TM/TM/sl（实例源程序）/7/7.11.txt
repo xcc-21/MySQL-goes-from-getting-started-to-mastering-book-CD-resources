@@ -1,0 +1,2 @@
+use db_database07;
+select row,row or 1,row or 0 from tb_book;

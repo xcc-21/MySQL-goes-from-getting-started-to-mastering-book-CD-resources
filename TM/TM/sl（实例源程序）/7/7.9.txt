@@ -1,0 +1,2 @@
+use db_database07;
+select user,user REGEXP'm',user regexp'g$',user regexp'^m'from tb_book;

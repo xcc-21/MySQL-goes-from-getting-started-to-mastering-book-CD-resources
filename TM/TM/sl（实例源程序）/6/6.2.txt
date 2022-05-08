@@ -1,0 +1,1 @@
+SHOW COLUMNS FROM tb_admin FROM db_admin;

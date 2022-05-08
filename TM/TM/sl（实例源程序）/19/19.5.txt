@@ -1,0 +1,2 @@
+use db_database19;
+EXPLAIN SELECT * FROM studentinfo WHERE name='Chris' or sex='M';

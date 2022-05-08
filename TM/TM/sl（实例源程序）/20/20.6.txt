@@ -1,0 +1,2 @@
+CREATE USER mr IDENTIFIED BY 'mrsoft';
+set password for 'mr'@'%'= password('111');

@@ -1,0 +1,3 @@
+USE test;
+
+SELECT times,CAST(times as DATE),CONVERT(times,TIME) FROM C1;

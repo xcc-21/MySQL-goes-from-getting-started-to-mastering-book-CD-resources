@@ -1,0 +1,2 @@
+grant all on * to mr identified by 'mr'
+with grant option;

@@ -1,0 +1,3 @@
+UPDATE db_database08.tb_admin SET password='123' WHERE user='mrbccd';
+
+SELECT * FROM db_database08.tb_admin WHERE user='mrbccd';

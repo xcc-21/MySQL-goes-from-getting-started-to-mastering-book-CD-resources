@@ -1,0 +1,1 @@
+select TRUNCATE(2.1234567,3);

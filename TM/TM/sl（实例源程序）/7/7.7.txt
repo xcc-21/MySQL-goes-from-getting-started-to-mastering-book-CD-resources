@@ -1,0 +1,2 @@
+use db_database07;
+select row,row in(10,95,30) from tb_book;

@@ -1,0 +1,18 @@
+use db_database15;
+
+/**执行下面的创建角触发器的SQL语句前，需要先删除例15-1和例15-2所创建的触发器**/
+create trigger before_in before insert on
+studentinfo for each row
+insert into timeinfo (info) values ('before');
+//
+
+create trigger after_in after insert on
+studentinfo for each row
+insert into timeinfo (info) values ('after');
+//
+
+insert into studentinfo(name) values ('Nowitzki');
+//
+
+select * from timeinfo;
+//

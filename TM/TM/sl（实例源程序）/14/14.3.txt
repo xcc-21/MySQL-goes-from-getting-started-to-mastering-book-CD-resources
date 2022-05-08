@@ -1,0 +1,12 @@
+use db_database14;
+delimiter //
+create procedure p1()
+begin
+declare x char(10) default 'outer ';
+begin
+declare x char(10) default 'inner ';
+select x;
+end;
+select x;
+end;
+//

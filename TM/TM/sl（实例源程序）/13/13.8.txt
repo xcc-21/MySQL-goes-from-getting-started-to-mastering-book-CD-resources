@@ -1,0 +1,28 @@
+use db_database13;
+
+/***如果db_databas13数据库中不存数据表tb_class，应用下面的语句先创建它***/
+CREATE TABLE tb_class (
+  
+	id int(11) NOT NULL AUTO_INCREMENT,
+	name varchar(45) DEFAULT NULL,
+	remark varchar(100) DEFAULT NULL,
+
+	PRIMARY KEY (`id`)
+
+);
+/*****************************************************************************/
+
+create table tb_student1a (
+id int auto_increment PRIMARY KEY,
+name varchar(30) not null,
+sex varchar(2),
+classid int not null,
+birthday date,
+remark varchar(100),
+CONSTRAINT fk_classid FOREIGN KEY (classid)
+REFERENCES tb_class(id)
+ON DELETE RESTRICT
+ON UPDATE RESTRICT
+);
+
+

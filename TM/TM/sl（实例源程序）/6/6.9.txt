@@ -1,0 +1,15 @@
+USE db_admin;
+
+CREATE TABLE tb_userNew
+	LIKE tb_user;
+
+DESC tb_user;
+DESC tb_userNew;
+
+SELECT * FROM tb_user;
+SELECT * FROM tb_userNew;
+
+CREATE TABLE tb_userNew1
+     AS SELECT * FROM tb_user;
+
+SELECT * FROM tb_userNew1;

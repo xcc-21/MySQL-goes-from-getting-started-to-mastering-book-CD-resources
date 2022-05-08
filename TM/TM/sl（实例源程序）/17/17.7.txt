@@ -1,0 +1,4 @@
+use db_database17
+
+DROP EVENT IF EXISTS e_test;
+

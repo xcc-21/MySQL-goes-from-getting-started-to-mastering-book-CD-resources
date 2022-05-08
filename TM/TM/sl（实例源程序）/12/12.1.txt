@@ -1,0 +1,1 @@
+SELECT Select_priv,Create_view_priv FROM mysql.user WHERE user='root';

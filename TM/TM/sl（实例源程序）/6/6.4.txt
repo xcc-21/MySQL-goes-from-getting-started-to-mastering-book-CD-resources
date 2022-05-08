@@ -1,0 +1,6 @@
+USE db_admin;
+
+ALTER TABLE tb_admin ADD email varchar(50) not null ,
+modify user varchar(40);
+
+DESC tb_admin;

@@ -1,0 +1,3 @@
+use db_database09;
+
+select section,tb_book.user,books,row from tb_book right join tb_login on tb_book.user=tb_login.user;

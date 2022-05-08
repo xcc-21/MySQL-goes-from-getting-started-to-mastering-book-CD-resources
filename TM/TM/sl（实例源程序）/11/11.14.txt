@@ -1,0 +1,12 @@
+use db_database11;
+
+
+CREATE TABLE workinfo(
+id int(10) not null primary key auto_increment,
+name varchar(20) not null,
+address varchar(50),
+tel varchar(20),
+UNIQUE INDEX index_id(id DESC)
+);
+
+CREATE INDEX index_name ON workinfo(name(10));

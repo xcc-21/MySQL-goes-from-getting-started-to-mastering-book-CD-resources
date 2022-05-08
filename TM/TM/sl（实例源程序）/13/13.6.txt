@@ -1,0 +1,11 @@
+use db_database13;
+
+create table tb_student2 (
+id int auto_increment,
+name varchar(30) not null,
+sex varchar(2),
+age int not null CHECK(age>6 and age<18),
+remark varchar(100),
+primary key (id)
+);
+

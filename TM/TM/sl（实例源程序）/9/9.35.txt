@@ -1,0 +1,3 @@
+use db_database09;
+
+select section AS login_section,name AS login_name from tb_login;

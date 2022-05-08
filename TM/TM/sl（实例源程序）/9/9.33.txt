@@ -1,0 +1,5 @@
+use db_database09;
+
+select user from tb_book
+UNION
+select user from tb_login;

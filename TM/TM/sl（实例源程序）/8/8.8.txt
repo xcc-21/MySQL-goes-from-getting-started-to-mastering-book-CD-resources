@@ -1,0 +1,1 @@
+TRUNCATE TABLE db_database08.tb_admin;

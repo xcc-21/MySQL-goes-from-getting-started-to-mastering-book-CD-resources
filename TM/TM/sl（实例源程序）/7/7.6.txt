@@ -1,0 +1,2 @@
+use db_database07;
+select row,row BETWEEN 10 AND 50,row BETWEEN 25 AND 28 from tb_book;

@@ -1,0 +1,3 @@
+desc student_extra;
+
+SELECT * FROM student,student_extra WHERE student.id=student_extra.id;

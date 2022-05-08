@@ -1,0 +1,10 @@
+DESC db_database08.tb_mrbook;
+
+SELECT * FROM tb_mrbook;
+
+INSERT INTO db_database08.tb_admin
+     (user,password)
+     SELECT user,pass FROM tb_mrbook;
+
+
+SELECT * FROM db_database08.tb_admin;

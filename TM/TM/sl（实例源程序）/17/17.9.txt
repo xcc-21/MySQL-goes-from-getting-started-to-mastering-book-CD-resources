@@ -1,0 +1,7 @@
+use db_database17
+
+CREATE EVENT IF NOT EXISTS e_test ON SCHEDULE EVERY 1 MINUTE 
+ON COMPLETION PRESERVE
+DO INSERT INTO tb_eventtest(user,createtime) VALUES('root',NOW());
+
+select * from tb_eventtest;

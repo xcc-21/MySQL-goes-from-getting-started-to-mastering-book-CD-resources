@@ -1,0 +1,4 @@
+USE db_database08;
+DELETE FROM tb_admin WHERE user='mr';
+
+SELECT * FROM tb_admin;

@@ -1,0 +1,3 @@
+use db_database14;
+drop procedure count_of_student;
+//

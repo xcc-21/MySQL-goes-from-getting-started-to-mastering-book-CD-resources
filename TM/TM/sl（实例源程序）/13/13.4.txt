@@ -1,0 +1,26 @@
+use db_database13;
+
+CREATE TABLE tb_class (
+  
+	id int(11) NOT NULL AUTO_INCREMENT,
+	name varchar(45) DEFAULT NULL,
+	remark varchar(100) DEFAULT NULL,
+
+	PRIMARY KEY (`id`)
+
+);
+
+create table tb_student1 (
+	id int auto_increment,
+	name varchar(30) not null,
+	sex varchar(2),
+	classid int not null,
+	birthday date,
+	remark varchar(100),
+	primary key (id),
+	FOREIGN KEY (classid)
+	REFERENCES tb_class(id)
+	ON DELETE RESTRICT
+	ON UPDATE RESTRICT
+);
+

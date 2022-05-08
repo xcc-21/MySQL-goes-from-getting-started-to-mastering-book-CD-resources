@@ -1,0 +1,2 @@
+use db_database07;
+select id,books,row<>1,row!=41,row!=24 from tb_book where id=27;

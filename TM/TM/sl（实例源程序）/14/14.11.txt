@@ -1,0 +1,14 @@
+/***如果数据库db_database14中不存在名称为name_of_student的存储函数，那么需要先应用下面的语句来创建它***/
+
+delimiter //
+create function name_of_student(std_id INT)
+returns varchar(50)
+begin
+return(select name from studentinfo where sid=std_id);
+end
+//
+
+/****************************************************/
+
+ SHOW FUNCTION STATUS LIKE 'name%';
+ //

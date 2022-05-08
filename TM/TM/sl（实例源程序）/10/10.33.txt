@@ -1,0 +1,1 @@
+ Select VERSION(),DATABASE(),USER();

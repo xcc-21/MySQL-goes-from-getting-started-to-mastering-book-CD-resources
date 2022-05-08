@@ -1,0 +1,7 @@
+use db_database17
+
+CREATE EVENT IF NOT EXISTS e_clearNews 
+ON SCHEDULE EVERY 1 MONTH
+ON COMPLETION PRESERVE
+DO DELETE FROM tb_news where addtime < now();
+

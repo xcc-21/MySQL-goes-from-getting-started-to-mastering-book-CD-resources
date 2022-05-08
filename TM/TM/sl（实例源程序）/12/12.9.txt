@@ -1,0 +1,6 @@
+use db_database12;
+
+
+DROP VIEW IF EXISTS book_view1;
+
+SHOW CREATE VIEW book_view1;

@@ -1,0 +1,3 @@
+use db_database09;
+
+select id,books,talk,user from tb_book GROUP BY user,talk;

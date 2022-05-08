@@ -1,0 +1,3 @@
+use db_databse15;
+DELETE FROM studentinfo where sid=7;
+//

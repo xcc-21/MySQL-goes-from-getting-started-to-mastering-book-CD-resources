@@ -1,0 +1,1 @@
+select INSERT('mrkej',3,2,'book');

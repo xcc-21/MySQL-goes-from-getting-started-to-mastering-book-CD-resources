@@ -1,0 +1,5 @@
+use db_database17
+
+ALTER EVENT e_test DISABLE;
+
+select * from tb_eventtest;

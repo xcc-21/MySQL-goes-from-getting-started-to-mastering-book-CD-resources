@@ -1,0 +1,8 @@
+use db_database14;
+delimiter //
+create procedure count_of_student(OUT count_num INT)
+reads sql data
+begin
+select count(*) into count_num from studentinfo;
+end
+//

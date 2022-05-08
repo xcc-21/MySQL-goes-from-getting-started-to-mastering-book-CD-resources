@@ -1,0 +1,1 @@
+Select INSTR('You love me.He love me.','me');

@@ -1,0 +1,3 @@
+use db_database19;
+
+SHOW VARIABLES LIKE '%query_cache';

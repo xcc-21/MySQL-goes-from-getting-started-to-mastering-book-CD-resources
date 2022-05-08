@@ -1,0 +1,7 @@
+use db_database15;
+
+DROP TRIGGER delete_time_info;
+//
+
+SHOW TRIGGERS;
+//

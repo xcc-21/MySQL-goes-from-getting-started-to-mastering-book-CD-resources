@@ -1,0 +1,2 @@
+use db_database07;
+select id,books,row>90 from tb_book;

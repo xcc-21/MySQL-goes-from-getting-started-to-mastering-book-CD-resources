@@ -1,0 +1,1 @@
+mysqldump -u root -p -T D:\ test order "--lines-terminated-by=\r\n" "--fields-terminated-by=¡¢" "--fields-optionally-enclosed-by=""

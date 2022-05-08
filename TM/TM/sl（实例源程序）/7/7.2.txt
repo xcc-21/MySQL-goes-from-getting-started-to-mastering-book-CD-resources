@@ -1,0 +1,2 @@
+use db_database07;
+select id,books,id=27 from tb_book;

@@ -1,0 +1,3 @@
+use db_database11;
+
+CREATE INDEX index3_addr ON index3(address(4));

@@ -1,0 +1,6 @@
+USE db_database08;
+INSERT INTO tb_admin 
+SET user='mrbccd',password='111',createtime= '2014-09-06 10:35:26';
+
+
+SELECT * FROM tb_admin;

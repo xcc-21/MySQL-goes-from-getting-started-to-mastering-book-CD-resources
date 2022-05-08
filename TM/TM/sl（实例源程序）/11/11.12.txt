@@ -1,0 +1,3 @@
+use db_database11;
+
+ALTER TABLE workinfo ADD FULLTEXT INDEX index_ext(address);

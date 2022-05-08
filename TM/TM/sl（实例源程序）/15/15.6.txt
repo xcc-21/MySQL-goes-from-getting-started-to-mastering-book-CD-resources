@@ -1,0 +1,10 @@
+use db_database15;
+
+CREATE TRIGGER trig1 BEFORE INSERT
+ON department FOR EACH ROW 
+INSERT INTO tb_students(times) VALUES(NOW());
+//
+
+INSERT INTO department (name) values('liliy');   /*插入一条记录*/
+//
+Select * from tb_students;

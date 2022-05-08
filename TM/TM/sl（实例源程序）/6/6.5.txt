@@ -1,0 +1,2 @@
+ALTER TABLE db_admin.tb_usernew1 
+CHANGE COLUMN user username VARCHAR(30) NULL DEFAULT NULL ;

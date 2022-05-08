@@ -1,0 +1,10 @@
+use db_database13;
+
+CREATE TABLE tb_class1 (
+	id int(11) NOT NULL AUTO_INCREMENT,
+	name varchar(45) NOT NULL,
+	remark varchar(100) DEFAULT NULL,
+	PRIMARY KEY (`id`)
+);
+
+

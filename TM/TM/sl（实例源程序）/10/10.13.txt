@@ -1,0 +1,1 @@
+select SUBSTRING('mrbccd',3,4);

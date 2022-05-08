@@ -1,0 +1,3 @@
+use db_database09;
+
+SELECT books,row FROM tb_book WHERE row IS NULL;

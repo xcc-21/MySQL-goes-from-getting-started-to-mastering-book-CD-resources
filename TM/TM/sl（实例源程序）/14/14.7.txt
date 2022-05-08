@@ -1,0 +1,6 @@
+use db_database14;
+alter procedure count_of_student
+modifies sql data
+sql security invoker;
+//
+

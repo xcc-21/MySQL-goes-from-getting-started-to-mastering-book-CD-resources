@@ -1,0 +1,1 @@
+select ROUND(1.6),ROUND(1.2),ROUND(1.123456,3);

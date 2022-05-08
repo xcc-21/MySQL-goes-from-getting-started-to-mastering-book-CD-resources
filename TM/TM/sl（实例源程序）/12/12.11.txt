@@ -1,0 +1,4 @@
+use db_database12;
+
+
+DESCRIBE book_view2;

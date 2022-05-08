@@ -1,0 +1,5 @@
+mysql ¨Curoot ¨Cproot
+use db_database16 ;
+start transaction;
+insert into connection(email,cellphone,QQ,sid)
+values('barrystephen@126.com',13456000000,187034000,3);

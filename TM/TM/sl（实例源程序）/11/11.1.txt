@@ -1,0 +1,12 @@
+use db_database11;
+/**如果db_databse11中已经存在名称为score的数据表，那么需要先删除该表，然后再执行下面的创建数据表的SQL语句**/
+create table score(
+ id int(11) auto_increment primary key not null,
+ name varchar(50) not null,
+ math int(5) not null,
+ english int(5) not null,
+ chinese int(5) not null,
+ index(id));
+
+
+show create table score;

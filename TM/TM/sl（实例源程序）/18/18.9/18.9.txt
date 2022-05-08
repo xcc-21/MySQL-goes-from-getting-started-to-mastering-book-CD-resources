@@ -1,0 +1,8 @@
+USE test;
+
+LOAD DATA INFILE 'D:/student1.txt' INTO TABLE student1
+ FIELDS TERMINATED BY '\t'
+ LINES TERMINATED BY '\r\n'
+ IGNORE 1 LINES;
+
+select * from student1;

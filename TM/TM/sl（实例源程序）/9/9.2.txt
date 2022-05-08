@@ -1,0 +1,2 @@
+use db_database09;
+SELECT user,pwd FROM tb_login;

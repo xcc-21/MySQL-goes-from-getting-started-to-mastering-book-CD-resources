@@ -1,0 +1,21 @@
+use db_database13
+
+CREATE TABLE tb_type (
+	id int(11) NOT NULL AUTO_INCREMENT,
+	name varchar(45) DEFAULT NULL,
+	remark varchar(100) DEFAULT NULL,
+
+	PRIMARY KEY (`id`)
+);
+
+Create table tb_book(id int(11) not null primary key auto_increment,
+name varchar(20) not null,
+publishingho varchar(20) not null,
+author varchar(20),
+typeid int(11),
+CONSTRAINT fk_typeid 
+FOREIGN KEY (typeid)
+REFERENCES tb_type(id)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);

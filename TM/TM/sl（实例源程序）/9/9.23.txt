@@ -1,0 +1,3 @@
+use db_database09;
+
+select name,books from tb_login,tb_book where tb_login.user=tb_book.user;

@@ -1,0 +1,17 @@
+use db_database07;
+delimiter //
+create procedure example_while (out sum int)
+begin
+declare i int default 1;
+declare s int default 0;
+while i<=100 do
+set s=s+i;
+set i=i+1;
+end while;
+set sum=s;
+end
+//
+
+call example_while(@s);
+select @s;
+

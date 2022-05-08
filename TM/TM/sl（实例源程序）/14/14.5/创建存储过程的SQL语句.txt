@@ -1,0 +1,7 @@
+use db_database14;
+delimiter //
+create procedure pro_reg(in nc varchar(50),in pwd varchar(50),in email varchar(50),in address varchar(50))
+begin
+insert into tb_reg(name,pwd,email,address) values (nc,pwd,email,address);
+end;
+//

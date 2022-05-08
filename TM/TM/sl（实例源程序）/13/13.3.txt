@@ -1,0 +1,8 @@
+use db_database13;
+
+create table tb_user1(
+id int auto_increment UNIQUE,
+user varchar(30) not null UNIQUE,
+password varchar(30) not null,
+createtime TIMESTAMP default CURRENT_TIMESTAMP);
+

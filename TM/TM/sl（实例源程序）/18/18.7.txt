@@ -1,0 +1,1 @@
+mysqldump -u root -p --xml test student >D:/student.xml

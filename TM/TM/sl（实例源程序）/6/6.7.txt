@@ -1,0 +1,3 @@
+USE db_admin;
+
+ALTER TABLE tb_usernew1 RENAME AS tb_userOld;

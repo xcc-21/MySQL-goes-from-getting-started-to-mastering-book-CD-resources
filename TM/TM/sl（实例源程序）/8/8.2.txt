@@ -1,0 +1,6 @@
+USE db_database08;
+INSERT INTO tb_admin (user,password) 
+VALUES('rjkflm','111');
+
+
+SELECT * FROM tb_admin;

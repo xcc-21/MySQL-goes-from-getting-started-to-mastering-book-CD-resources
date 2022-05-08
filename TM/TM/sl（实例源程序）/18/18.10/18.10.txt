@@ -1,0 +1,6 @@
+--在DOS命令提示符下输入以下命令：
+mysqlimport -u root -p111 test D:\order.txt "--lines-terminated-by=\r\n" "--fields-terminated-by=\t" "--fields-optionally-enclosed-by=\""
+
+--在MySQL的命令行窗口中输入以下命令：
+use test;
+select * from `order`;

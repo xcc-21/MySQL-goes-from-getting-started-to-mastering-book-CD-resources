@@ -1,0 +1,12 @@
+use db_database14;
+delimiter //
+create procedure p2()
+begin
+set @t=1;
+begin
+set @t=2;
+select @t;
+end;
+select @t;
+end;
+//

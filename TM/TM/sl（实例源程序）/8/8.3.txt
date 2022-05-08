@@ -1,0 +1,8 @@
+USE db_database08;
+INSERT INTO tb_admin (user,password,createtime) 
+VALUES('mrbccd','111', '2014-09-05 10:35:26')
+,( 'mingri','111', '2014-09-05 10:45:27')
+,( 'mingrisoft','111', '2014-09-05 10:55:28');
+
+
+SELECT * FROM tb_admin;

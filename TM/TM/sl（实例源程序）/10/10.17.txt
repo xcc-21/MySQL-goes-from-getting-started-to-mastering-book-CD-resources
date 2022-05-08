@@ -1,0 +1,2 @@
+Select LOCATE(¡®me¡¯,¡¯You love me.He love me.¡¯);
+Select POSITION(¡®me¡¯ IN ¡®You love me.He love me.¡¯);

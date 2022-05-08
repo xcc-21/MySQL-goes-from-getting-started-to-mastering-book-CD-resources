@@ -1,0 +1,7 @@
+create database db_admin;/**如果数据库db_admin已经被删除，或者没有创建，请使用该语句创建它***/
+use db_admin;
+create table tb_admin(
+id int auto_increment primary key,
+user varchar(30) not null,
+password varchar(30) not null,
+createtime datetime);

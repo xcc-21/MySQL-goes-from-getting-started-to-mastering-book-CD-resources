@@ -1,0 +1,13 @@
+use db_database11;
+
+/**如果db_databse11中已经存在名称为list的数据表，那么需要先删除该表，然后再执行下面的创建数据表的SQL语句**/
+
+create table list(
+id int(11) primary key auto_increment not null,
+goods geometry not null,
+SPATIAL INDEX listinfo(goods)
+)engine=MyISAM;
+
+show create table list;
+
+

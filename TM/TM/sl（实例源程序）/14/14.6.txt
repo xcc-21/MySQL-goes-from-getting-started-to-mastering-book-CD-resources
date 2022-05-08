@@ -1,0 +1,2 @@
+use db_database14;
+show create procedure count_of_student ;

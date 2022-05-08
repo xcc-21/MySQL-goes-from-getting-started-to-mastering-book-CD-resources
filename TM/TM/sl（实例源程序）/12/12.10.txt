@@ -1,0 +1,8 @@
+use db_database12;
+
+
+CREATE VIEW department_view1
+
+AS SELECT * FROM department;
+
+DESC department_view1;

@@ -1,0 +1,3 @@
+SHOW STATUS LIKE 'Connections';
+SHOW STATUS LIKE 'Com_select';
+SHOW STATUS LIKE 'Slow_queries';

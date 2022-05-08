@@ -1,0 +1,80 @@
+<html>
+<head>
+<link href='styles.css'/>
+<style type='text/css'>
+a{    color: blue;
+    text-decoration:}
+a:hover {
+    background: rgb(75%,75%,100%);
+    color: #000000;
+    Text -decoration:
+;   text-decoration: none;}
+a:visited {
+    color: #000000;
+    Text -decoration
+;   text-decoration: none;}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+a:active {
+    text-decoration: none;}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;}
+</style></head>
+<script language='JavaScript'>
+function click(e) {
+  if (document.all)
+   if (event.button==2||event.button==3)
+     oncontextmenu='return false';
+  }
+  document.onmousedown=click;
+  document.oncontextmenu = new Function('return false');
+   function fc(obj,j)
+   { if(obj=='a')
+       if(form1.c[j].checked==true)
+         form1.c[j].checked=false;
+       else
+         form1.c[j].checked=true;
+      n=form1.r.length;
+      s="";
+      for (i=0;i<n;i++)
+          if (form1.r(i).checked)
+          s=s+form1.r(i).value;
+      form1.da.value='您的答案是：'+s;}
+  function ff(j)
+  {form1.r[j].checked=true;
+      form1.da.value = '您选择的是：' + vbchr(65 + j)
+   }
+</script>
+<script language='vbscript'>
+  function vbchr(a)
+    vbchr = Chr(a)
+  end function
+</script>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="602" height="540" border="0" align="left" cellpadding="0" cellspacing="0" id="__01">
+    <tr>
+        <td width="602" height="66" valign="Top">
+            <img src="images/&#x968f;&#x673a;&#x80fd;&#x529b;&#x6d4b;&#x8bd5;&#x7cfb;&#x7edf;_01.gif" width="602" height="66" alt=""></td>
+    </tr>
+    <tr>
+      <td bgcolor="#eef7fe">
+         <form name="form1">
+       &nbsp;&nbsp;&nbsp;&nbsp;填空题：<p>
+       &nbsp;&nbsp;&nbsp;&nbsp;关闭目录指针需要使用函数(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<p>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+<input name="da" type="text"  value="您的答案是：" /><br>
+         </form>
+        </td>
+    </tr>
+    <tr>
+        <td width="1500" height="109" valign="bottom">
+            <img src="images/&#x968f;&#x673a;&#x80fd;&#x529b;&#x6d4b;&#x8bd5;&#x7cfb;&#x7edf;_03.gif" width="602" height="109" alt=""></td>
+    </tr>
+</table>
+</body>
+</html>

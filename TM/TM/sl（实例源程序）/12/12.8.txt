@@ -1,0 +1,6 @@
+use db_database12;
+
+
+SELECT * FROM db_database12.book_view2;
+
+UPDATE book_view2 SET a_sort='模块类',a_book='PHP典型模块' WHERE id=27;

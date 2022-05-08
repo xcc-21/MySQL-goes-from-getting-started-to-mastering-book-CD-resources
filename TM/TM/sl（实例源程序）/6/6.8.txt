@@ -1,0 +1,3 @@
+RENAME TABLE tb_admin TO tb_user;
+
+DESC tb_user;

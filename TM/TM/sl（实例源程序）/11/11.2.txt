@@ -1,0 +1,11 @@
+use db_database11;
+/**如果db_databse11中已经存在名称为address的数据表，那么需要先删除该表，然后再执行下面的创建数据表的SQL语句**/
+create table address(
+id int(11) auto_increment primary key not null,
+name varchar(50),
+address varchar(200),
+UNIQUE INDEX address(id ASC));
+
+
+
+show create table address;

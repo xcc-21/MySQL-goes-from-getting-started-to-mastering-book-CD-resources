@@ -1,0 +1,14 @@
+use db_database15;
+create table timeinfo(
+id int(11) primary key auto_increment,
+info varchar(50) not null
+)//
+
+delimiter //
+create trigger delete_time_info after delete
+on studentinfo for each row
+begin
+insert into timelog(savetime) values (now());
+insert into timeinfo(info) values ('deleteact');
+end
+//
